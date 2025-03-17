@@ -3351,7 +3351,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/hw/fingerprint.silead.default.so"],
-			shared_libs: ["liblog", "libutils", "libhardware", "libsl_fp_impl", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libhidlbase","liblog", "libutils", "libhardware", "libsl_fp_impl", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
