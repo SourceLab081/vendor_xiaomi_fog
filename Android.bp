@@ -3,6 +3,9 @@
 //
 
 soong_namespace {
+    imports: [
+        "vendor/qcom/common/vendor/display/4.19",
+    ],
 }
 
 cc_prebuilt_library_shared {
