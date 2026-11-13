@@ -5,6 +5,8 @@
 soong_namespace {
     imports: [
         "vendor/qcom/common/vendor/display/4.19",
+        "vendor/qcom/common/vendor/keymaster",
+        "hardware/qcom/wlan/qcwcn/wpa_supplicant_8_lib", 
     ],
 }
 
