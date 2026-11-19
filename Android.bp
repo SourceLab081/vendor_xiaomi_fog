@@ -4,8 +4,19 @@
 
 soong_namespace {
 	imports: [
-          "device/xiaomi/fog",
-          "hardware/xiaomi",
+        "device/xiaomi/fog",
+        "hardware/xiaomi",
+		"hardware/qcom/display",
+        "hardware/qcom/display/gralloc",
+        "hardware/qcom/display/libdebug",
+        "hardware/qcom/display/sde-drm",
+        "hardware/qcom/media/mm-core",
+        "hardware/xiaomi",
+        "vendor/qcom/common/vendor/display",
+        "vendor/qcom/common/vendor/display/4.19",
+        "vendor/qcom/common/vendor/gps-legacy",
+        "vendor/qcom/common/vendor/keymaster",
+        "vendor/qcom/common/vendor/wlan-legacy",
    ],
 }
 
